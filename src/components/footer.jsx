@@ -15,12 +15,12 @@ export default function Footer() {
             <p>Seguinos en nuestras redes sociales</p>
             <div className={styles.iconosRedes}>
               <a
+                className="enlace-redes"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Síguenos en Instagram"
                 href="https://www.instagram.com/nyc.seguridadprivada/"
-              ></a>
-              <Instagram className={styles.socialIcon} />
+              ><Instagram className={styles.socialIcon} /></a>
               <Facebook className={styles.socialIcon} />
             </div>
           </div>

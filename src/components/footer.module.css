@@ -13,6 +13,10 @@
     margin-right: 20px;
 }
 
+.enlace-redes{
+    text-decoration: none;
+}
+
 .flexItems {
     display: flex;
     justify-content: space-between;
