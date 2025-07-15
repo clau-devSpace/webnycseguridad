@@ -1,0 +1,219 @@
+.mySwiper {
+  width: calc(100% - 20px);
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.sliderTittle {
+  font-size: 2.5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.sliderContainer {
+  width: calc(100% - 20px);
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderTrack {
+  display: flex;
+  width: calc(var(--total-slides) * (100% / var(--slides-per-view)));
+  animation: slideInfinite 20s linear infinite;
+}
+
+.slideItem {
+  flex: 0 0 calc(100% / var(--total-slides));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 4rem;
+}
+
+.logoEmpresa {
+  max-height: 150px;
+  max-width: 180px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.logoEmpresa.logoEspecial {
+  max-height: 250px;
+  max-width: 300px;
+}
+
+.slideItem:hover .logoEmpresa {
+  transform: scale(1.05);
+}
+
+@keyframes slideInfinite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2)); 
+  }
+}
+
+@media (max-width: 768px) {
+  .mySwiper {
+    width: 95% !important;
+    margin: 0 auto;
+    height: 280px;
+  }
+
+  .sliderTittle {
+    font-size: 2rem;
+  }
+
+  .swiperSlide {
+    padding: 20px;
+  }
+
+  .sliderContainer {
+    width: 95% !important;
+    margin: 0 auto;
+    height: 280px;
+  }
+
+  .slideItem {
+    padding: 20px;
+  }
+
+  .sliderTrack {
+    animation-duration: 15s; 
+  }
+}
+
+@media (max-width: 600px) {
+  .mySwiper {
+    width: 95% !important;
+    height: 250px;
+  }
+
+  .swiperSlide {
+    padding: 18px;
+  }
+
+  .sliderTittle {
+    font-size: 1.8rem;
+  }
+
+  .sliderContainer {
+    width: 95% !important;
+    height: 250px;
+  }
+
+  .slideItem {
+    padding: 18px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mySwiper {
+    width: 95% !important;
+    height: 220px;
+  }
+
+  .swiperSlide {
+    padding: 15px;
+  }
+
+  .sliderTittle {
+    font-size: 1.6rem;
+  }
+
+  .sliderContainer {
+    width: 95% !important;
+    height: 220px;
+  }
+
+  .slideItem {
+    padding: 15px;
+  }
+
+  .sliderTrack {
+    animation-duration: 15s;
+  }
+
+  .logoEmpresa {
+    max-height: 120px;
+    max-width: 160px;
+  }
+
+  .logoEmpresa.logoEspecial {
+    max-height: 250px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mySwiper {
+    width: 95% !important;
+    height: 200px;
+  }
+
+  .swiperSlide {
+    padding: 10px;
+  }
+ 
+  .sliderTittle {
+    font-size: 1.6rem;
+  }
+
+  .sliderContainer {
+    width: 95% !important;
+    height: 200px;
+  }
+
+  .slideItem {
+    padding: 10px;
+  }
+}
+
+/* Swiper global styles */
+.mySwiper :global(.swiper-pagination-progressbar) {
+  background: rgba(0, 0, 0, 0.08) !important;
+  height: 2px !important;
+  border-radius: 1px !important;
+  bottom: 8px !important;
+  top: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 60% !important;
+  max-width: 200px !important;
+}
+
+.mySwiper :global(.swiper-pagination-progressbar-fill) {
+  background: #333 !important;
+  border-radius: 1px !important;
+  transition: all 0.3s ease !important;
+}
+
+.mySwiper:hover :global(.swiper-pagination-progressbar) {
+  background: rgba(0, 0, 0, 0.12) !important;
+}
+
+.mySwiper:hover :global(.swiper-pagination-progressbar-fill) {
+  background: #000 !important;
+}
