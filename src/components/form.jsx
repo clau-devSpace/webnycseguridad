@@ -3,9 +3,9 @@ import styles from './form.module.css';
 
 //  CONFIGURACIÓN EMAILJS 
 const EMAIL_CONFIG = {
- USER_ID: process.env.NEXT_PUBLIC_EMAILJS_USER_ID,        
- SERVICE_ID: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,   
- TEMPLATE_ID: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID  
+ USER_ID: RkfmtJuFyfOOM7cUf,    
+ SERVICE_ID: service_7q0t6nc,
+ TEMPLATE_ID: template_08sukod
 };
 
 export default function Form() {
