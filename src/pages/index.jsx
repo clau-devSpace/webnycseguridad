@@ -182,7 +182,7 @@ const animateValue = (element, start, end, duration, symbol = '', isPrefix = fal
         <div className="hero-content">
           <h1>Seguridad Integral</h1>
          {/*  <p className="hero-subtitle">Protección Profesional 24/7</p>*/}
-          <p>En NYC Brindamos servicios de seguridad privada con los más altos estándares de calidad y profesionalismo.</p>
+          <p>En <strong>NYC</strong> Brindamos servicios de seguridad privada con los más altos estándares de calidad y profesionalismo.</p>
           <a href="#servicios" className="cta-boton" onClick={(e) => handleSmoothScroll(e, '#servicios')}>
             Conocer Servicios
           </a>
@@ -228,7 +228,7 @@ const animateValue = (element, start, end, duration, symbol = '', isPrefix = fal
           <div className="about-content">
             <div className="about-text">
               <h2>Nosotros</h2>
-              <p>Con 23 años de experiencia en el sector de la seguridad, NYC es una empresa líder que se dedica a brindar soluciones integrales de protección a empresas e industrias.</p>
+              <p>Con 23 años de experiencia en el sector de la seguridad, <strong>NYC es una empresa líder</strong> que se dedica a brindar soluciones integrales de protección a empresas e industrias.</p>
               <p>Nuestro equipo está formado por profesionales altamente capacitados y certificados, comprometidos con la excelencia en el servicio y la innovación constante en tecnologías de seguridad.</p>
               <div className="about-features">
                 <div className="feature-item">

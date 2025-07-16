@@ -26,7 +26,7 @@ const GoogleMapEmbed = () => {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="Mapa de ubicación LatinSec"
+        title="Mapa de ubicación NYC Seguridad"
       />
     </>
   );

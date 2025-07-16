@@ -20,7 +20,7 @@ export default function Slider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="homeSwiper"
       >
-        <SwiperSlide><img src='/images/fachada.png' alt='Oficina/Edificio NYC'/></SwiperSlide>
+        <SwiperSlide><img src='/images/edificio-oficina-nyc.png' alt='Oficina/Edificio NYC'/></SwiperSlide>
         <SwiperSlide><img src='/images/oficina-nyc.jpeg' alt='Oficinas NYC'/></SwiperSlide>
         <SwiperSlide><img src='/images/garita-vigilancia.jpeg' alt='Garita vigilancia'/></SwiperSlide>
         <SwiperSlide><img src='/images/guardias.jpg' alt='Vigilancia' /></SwiperSlide>
