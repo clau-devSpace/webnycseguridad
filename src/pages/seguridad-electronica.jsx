@@ -4,6 +4,7 @@ import styles from './seguridadFisica.module.css';
 import Header from "../components/header";
 import CtaSection from "../components/ctaButton";
 import WhatsAppBoton from "../components/whatsappButton";
+import Image from 'next/image';
 
 export default function SeguridadElectronica(){
     const schemaData = {
@@ -100,7 +101,7 @@ export default function SeguridadElectronica(){
                                     <span className={`${styles.featureText} ${styles.specificText}`}>Recorridas Programadas con Robots Autónomos</span>
                                 </div>
                                 <div className={styles.featureItem}>
-                                    <span className={styles.featureIcon}><img className={styles.dron} src="/images/dron-de-seguridad.png"/></span>
+                                    <span className={styles.featureIcon}><Image className={styles.dron} src="/images/dron-de-seguridad.png"/></span>
                                     <span className={styles.featureText}>Vigilancia Aérea con Drones</span>
                                 </div>
                             </div>
@@ -132,7 +133,7 @@ export default function SeguridadElectronica(){
                                 </ul>
                             </div>
                             <div>
-                                <img src="/images/alarma-seguridad.jpg" alt="Sistema de alarmas" className={styles.serviceImage} />
+                                <Image src="/images/alarma-seguridad.jpg" alt="Sistema de alarmas" className={styles.serviceImage} />
                             </div>
                         </div>
 
@@ -150,7 +151,7 @@ export default function SeguridadElectronica(){
                                 </ul>
                             </div>
                             <div>
-                                <img src="/images/camara-seguridad.jpg" alt="Cámaras de seguridad" className={styles.serviceImage} />
+                                <Image src="/images/camara-seguridad.jpg" alt="Cámaras de seguridad" className={styles.serviceImage} />
                             </div>
                         </div>
 
@@ -172,7 +173,7 @@ export default function SeguridadElectronica(){
                                 <p className={styles.serviceAdditional}>Ofrecemos variados sistemas de control de accesos: tarjetas, huellas dactilares, teclados, molinetes, etc., en conjunto con software de última generación que dan soporte y registro escrito sobre los movimientos del lugar, garantizando un control total de los accesos.</p>
                             </div>
                             <div>
-                                <img src="/images/totem-de-seguridad.png" alt="Totem de Seguridad" className={`${styles.serviceImage} ${styles.totem}`} />
+                                <Image src="/images/totem-de-seguridad.png" alt="Totem de Seguridad" className={`${styles.serviceImage} ${styles.totem}`} />
                             </div>
                         </div>
 
@@ -188,7 +189,7 @@ export default function SeguridadElectronica(){
                                 </ul>
                             </div>
                             <div>
-                                <img src="/images/control-biometrico.jpg" alt="Control de accesos" className={styles.serviceImage} />
+                                <Image src="/images/control-biometrico.jpg" alt="Control de accesos" className={styles.serviceImage} />
                             </div>
                         </div>
                     </div>

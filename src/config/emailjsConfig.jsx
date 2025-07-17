@@ -1,6 +1,6 @@
 //  CONFIGURACIÓN EMAILJS 
  export const EMAIL_CONFIG = {
- USER_ID: 'RkfmtJuFyfOOM7cUf',    
- SERVICE_ID: 'service_7q0t6nc',
- TEMPLATE_ID: 'template_08sukod'
+ USER_ID: 'dF8lldGTq57nCTjx3',    
+ SERVICE_ID: 'service_tqey6sd',
+ TEMPLATE_ID: 'template_9m3act5'
 };

@@ -4,6 +4,7 @@ import styles from './seguridadFisica.module.css';
 import Header from "../components/header";
 import CtaSection from "../components/ctaButton";
 import WhatsAppBoton from "../components/whatsappButton";
+import Image from 'next/image';
 
 export default function SeguridadFisica(){
     const schemaData = {
@@ -149,7 +150,7 @@ export default function SeguridadFisica(){
                   </ul>
                 </div>
                 <div>
-                  <img
+                  <Image
                     src="/images/seguridad-fisica-1.jpeg"
                     alt="Seguridad Corporativa, monitoreo"
                     className={styles.serviceImage}
@@ -186,7 +187,7 @@ export default function SeguridadFisica(){
                   </p>
                 </div>
                 <div>
-                  <img
+                  <Image
                     src="/images/garita-vigilancia.jpeg"
                     alt="Garita de Vigilancia en Barrios Cerrados"
                     className={styles.serviceImage}
@@ -219,7 +220,7 @@ export default function SeguridadFisica(){
                   </p>
                 </div>
                 <div>
-                  <img
+                  <Image
                     src="/images/guardias.jpg"
                     alt="Guardias de seguridad y vigilancia"
                     className={styles.serviceImage}

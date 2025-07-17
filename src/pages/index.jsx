@@ -8,6 +8,7 @@ import SliderEmpresas from '../components/sliderEmpresas';
 import Link from 'next/link';
 import Head from "next/head";
 
+
 const SecurePro = () => {
   const statsRef = useRef(null);
   const [statsAnimated, setStatsAnimated] = useState(false);
@@ -31,7 +32,7 @@ const SecurePro = () => {
         "addressRegion": "Chubut",
         "addressCountry": "AR"
       },
-      "telephone": "+54-297-XXX-XXXX",
+      "telephone": "+54-297-443-8169",
       "areaServed": "Comodoro Rivadavia, Chubut, Argentina",
       "foundingDate": "2001"
     },
@@ -49,11 +50,6 @@ const SecurePro = () => {
         "@type": "Place",
         "address": "España 1055, Comodoro Rivadavia, Chubut, Argentina"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127"
     }
   };
 
